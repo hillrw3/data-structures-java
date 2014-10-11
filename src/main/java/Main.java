@@ -14,6 +14,9 @@ public class Main {
         robsQueue.enqueue("Shazam");
         System.out.println(robsQueue.queue);
 
+        robsQueue.dequeue();
+//        System.out.println(robsQueue.queue);
+        System.out.println(robsQueue.size());
 
     }
 }
